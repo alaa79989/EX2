@@ -10,8 +10,8 @@ public class TestQuestion1 {
   
  @Test
  public void  check_amin1() {
-	 int a=5,b=10,c=10;
-	 String expected_output="imaginary roots";
+	 int a=5,b=20,c=20;
+	 String expected_output="Equal roots";
 	 String actual_output=tester.calc_roots(a, b, c);
 	 assertEquals(expected_output,actual_output);
  }
